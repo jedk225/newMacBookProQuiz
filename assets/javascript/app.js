@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //alert to give player a chance to go over instructions before timer countdown begins
-    alert("You have 55 seconds to correctly answer as many GoT trivia questions as you can. Questions span through Season 7 (*POSSIBLE SPOILERS*). Are you the wisest in the Seven Kingdoms?");
+    alert("You have 55 seconds to correctly answer as many MacBook questions possible");
 
     //global variables
     var correct = 0;
