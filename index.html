@@ -1,12 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>MacBook Pro 13" Quiz</title>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.2/css/bootstrap.min.css" integrity="sha384-Smlep5jCw/wG7hdkwQ/Z5nLIefveQRIY9nfy6xoR1uRYBtpZgI6339F5dgvm/e9B"
+        crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="assets/javascript/app.js"></script>
+
 </head>
+
 <body>
-    
+
+    <div class="jumbotron jumbotron-fluid" id="main-jumbo">
+        <div class="container">
+            <img src="assets/images/game-of-thrones-logo-png-download-3988.png" id="title-image">
+            <h1 class="display-4" id="trivia-title">MacBook Pro Trivia Game</h1>
+        </div>
+    </div>
+    <div class="container" id="main-body">
+
+        <div id="time-remaining"></div>
+
+        <form>
+            What is the lowest priced MacBook Pro that we offer?
+            <br>
+            <input type="radio" name="q1" value="correct" class="correct" id="1a"> $1299
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="1b"> $1099
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="1c"> $1399
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="1d"> $999
+        </form>
+        <br>
+        <form>
+            Which of the following offers a studio‑quality three-mic array with high signal-to-noise ratio and directional beamforming?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="2a"> 13" MacBook Air
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="2b"> 13" MacBook Pro
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="2c"> 16" MacBook Pro
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="2d"> All of the above
+        </form>
+        <br>
+        <form>
+            Which of the following best decribes the keyboard mechanism of the MacBook Pro?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="3a"> Simple rubber dome switch that enables 1.2mm key travel
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="3b"> Mechanical Cherry MX switch that enables 3.0mm key travel
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="3c"> Buckling-spring switch mechanism that enables 3.0mm key travel
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="3d"> Refined scissor mechanism that enables 1.0mm key travel
+        </form>
+        <br>
+        <form>
+            Why could Jon leave the Night's Watch, since his vows were for life?
+            <br>
+            <input type="radio" name="q1" value="correct" class="correct" id="4a"> He died
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="4b"> The Watch made an exception
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="4c"> He fought his way out
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="4d"> He married the Queen
+        </form>
+        <br>
+        <form>
+            What is the name of Arya Stark's sword?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="5a"> Valyria
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="5b"> Needle
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="5c"> Oathkeeper
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="5d"> Longclaw
+        </form>
+        <br>
+        <form>
+            What is the name of Robb Stark's wife?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="6a"> Daenarys
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="6b"> Cersei
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="6c"> Tyene
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="6d"> Talisa
+        </form>
+        <br>
+        <form>
+            Which of the following is NOT one of Daenerys' dragons?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="7a"> Viserion
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="7b"> Doryu
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="7c"> Rhaegal
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="7d"> Drogon
+        </form>
+        <br>
+        <form>
+            Which of the following Houses did NOT conspire against the Starks during the Red Wedding?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="8a"> Frey
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="8b"> Bolton
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="8c"> Greyjoy
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="8d"> Lannister
+        </form>
+        <br>
+        <form>
+            In season 7, Jon Snow was elected to be the new:
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="9a"> Lord Commander of the Night's Watch
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="9b"> King in the North
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="9c"> Hand of the King
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="9d"> King Beyond the Wall
+        </form>
+        <br>
+        <form>
+            What is Ned Stark's relationship to Jon Snow, according to Bran Stark?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="10a"> Best Friend
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="10b"> Father
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="10c"> Brother
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="10d"> Uncle
+        </form>
+        <br>
+        <form>
+            Which of the following is NOT one of Daenerys' allies?
+            <br>
+            <input type="radio" name="q1" value="correct" class="incorrect" id="11a"> The Unsullied
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="11b"> The Second Sons
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="correct" id="11c"> The Brotherhood Without Banners
+            <br>
+            <input type="radio" name="q1" value="incorrect" class="incorrect" id="11d"> The Dothraki
+        </form>
+
+        <br>
+        <button id="submitBTN">Submit</button>
+
+
+    </div>
 </body>
+
 </html>
