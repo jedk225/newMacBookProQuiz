@@ -1,7 +1,7 @@
 $(document).ready(function () {
 
     //alert to give player a chance to go over instructions before timer countdown begins
-    alert("You have 55 seconds to correctly answer as many MacBook questions possible");
+    alert("You have 90 seconds to correctly answer as many MacBook questions possible");
 
     //global variables
     var correct = 0;
@@ -9,7 +9,7 @@ $(document).ready(function () {
     var incorrect = 0;
     console.log("Incorrect: " + incorrect);
     console.log("------------")
-    var seconds = 55;
+    var seconds = 90;
     console.log("Seconds: " + seconds);
     setTimeout(countDown, 1000);
 
@@ -61,7 +61,7 @@ $(document).ready(function () {
         }
 
 
-        var correctAnswer4 = document.getElementById("4a");
+        var correctAnswer4 = document.getElementById("4c");
         if (correctAnswer4.checked === true) {
             correct++;
             console.log("Correct: " + correct);
@@ -109,7 +109,7 @@ $(document).ready(function () {
             console.log("Incorrect: " + incorrect);
         }
 
-        var correctAnswer9 = document.getElementById("9b");
+        var correctAnswer9 = document.getElementById("9d");
         if (correctAnswer9.checked === true) {
             correct++;
             console.log("Correct: " + correct);
