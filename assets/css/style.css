@@ -31,11 +31,6 @@ body {
     padding: 7px;
 }
 
-#title-image {
-    max-width: 500px;
-    max-height: 250px;
-    float: left;
-}
 
 #main-jumbo {
     background-color: rgba(65, 65, 65, 0.9);
