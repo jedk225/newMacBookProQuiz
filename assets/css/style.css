@@ -1,0 +1,42 @@
+/*
+body {
+    background-image: url("");
+}
+*/
+
+#trivia-title {
+    text-align: center;
+    font-size: 70px;
+    font-weight: bold;
+    position: relative;
+    right: 1px;
+    bottom: 12px;
+    color: black;
+}
+
+#main-body {
+    border: 1px solid black;
+    padding: 30px;
+    width: 80%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #dcdcdc;
+}
+
+#start-over {
+    color: black;
+    background-color: #dcdcdc;
+    font-size: 24px;
+    font-weight: bold;
+    border: 1px solid #dcdcdc;
+    padding: 7px;
+}
+
+#title-image {
+    max-width: 500px;
+    max-height: 250px;
+    float: left;
+}
+
+#main-jumbo {
+    background-color: rgba(65, 65, 65, 0.9);
+}
